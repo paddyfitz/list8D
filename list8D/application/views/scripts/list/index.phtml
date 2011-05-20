@@ -1,0 +1,19 @@
+<?php echo "from view: ".get_class($this); ?><br/>
+<?php echo "from controller: ".$this->viewClass; ?>
+
+<?php echo $this->form; ?>
+
+
+
+
+<?php if($this->lists): ?>
+<ul>
+<?php foreach($this->lists as $list): ?>
+	<li><a href="<?php echo $this->url(array("controller"=>"list","action"=>"view","id"=>$list->getId())); ?>"><?php echo $list->getId(); ?></a></li>
+<?php endforeach; ?>
+</ul>
+<?php else: ?>
+<p>There are no lists yet.</p>
+<?php endif; ?>
+
+<p>WIBBLE!</p>

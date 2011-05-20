@@ -1,0 +1,33 @@
+.js ul.list-items {
+	margin: 0px;
+}
+	
+	.js ul.list-items li {
+		padding: 3px 0px;
+	}
+	
+	.js ul.list-items li,
+	.js #dragHelper li {
+		list-style: none;
+		margin: 0px;
+	}
+	
+	.js #dragHelper li {
+		padding:2px 0px;
+	}
+		
+		.js ul.list-items li img,
+		.js #dragHelper li img {
+			display: block;
+			float: left;
+			margin: 1px 5px 0px 0px;
+			cursor: move;
+		}
+		
+		.js ul.list-items li ul {
+			padding-left: 20px;
+		}
+		
+		#sortHelper {
+			border:1px dashed #777777;
+		}

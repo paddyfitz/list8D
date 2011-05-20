@@ -1,0 +1,1 @@
+list <a href="<?php echo $this->url(array("controller"=>"list","action"=>"view", 'id'=>$this->new_list_id)); ?>"><?php echo $this->new_list_id ?></a> has been duplicated from list <a href="<?php echo $this->url(array("controller"=>"list","action"=>"view", 'id'=>$this->source_list_id)); ?>"><?php echo $this->source_list_id ?></a>

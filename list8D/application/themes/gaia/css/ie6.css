@@ -1,0 +1,115 @@
+body{width: expression(document.documentElement.clientWidth < 1000 ? "1000px" : "auto");}
+.navigation .sub-nav ul {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-subnav-center.png', sizingmethod='scale');
+}
+.navigation .bottom-bg {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-subnav-bottom.png', sizingmethod='crop');
+}
+.list-box .tl {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-tl.png', sizingmethod='crop');
+}
+.list-box .b {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-bl.png', sizingmethod='crop');
+}
+.url .tl {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-tl-url.png', sizingmethod='crop');
+}
+.url .b {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-bl-url.png', sizingmethod='crop');
+}
+.journal .tl {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-tl-journal.png', sizingmethod='crop');
+}
+.journal .b {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-bl-journal.png', sizingmethod='crop');
+}
+.list .tl {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-tl-list.png', sizingmethod='crop');
+}
+.list .b {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-bl-list.png', sizingmethod='crop');
+}
+.list .inner-box .tl {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-tl.png', sizingmethod='crop');
+}
+.list .inner-box .b {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-bl.png', sizingmethod='crop');
+}
+.list .inner-box .list .tl {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-tl-list.png', sizingmethod='crop');
+}
+.list .inner-box .list .b {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-bl-list.png', sizingmethod='crop');
+}
+.list .inner-box .list-box .inner-box .list-box .tl {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-tl.png', sizingmethod='crop');
+}
+.list .inner-box .list-box .inner-box .list-box .b {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-bl.png', sizingmethod='crop');
+}
+.list .inner-box .list-box .inner-box .url .tl {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-tl-url.png', sizingmethod='crop');
+}
+.list .inner-box .list-box .inner-box .url .b {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-bl-url.png', sizingmethod='crop');
+}
+.list .inner-box .list-box .inner-box .journal .tl {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-tl-journal.png', sizingmethod='crop');
+}
+.list .inner-box .list-box .inner-box .journal .b {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-bl-journal.png', sizingmethod='crop');
+}
+.sub-create-item .bottom-bg {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-bottom.png', sizingmethod='crop');
+}
+.medium-list .list-box .tl {filter:none;}
+.medium-list .list-box .b {filter:none;}
+.medium-list .list .list .tl {
+	filter:none;
+	background: url(../images/bg-box-tl-list-medium.gif) no-repeat;
+}
+.medium-list .list .list .b {
+	filter:none;
+	background: url(../images/bg-box-bl-list-medium.gif) no-repeat;
+}
+.medium-list .list .inner-box .list-box .inner-box .list-box .tl {
+	filter:none;
+}
+.medium-list .list .inner-box .list-box .inner-box .list-box .b {filter:none;}
+.lightbox .list-box .tr {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-lightbox-tr.png', sizingmethod='crop');
+}
+.lightbox .list-box .cl {
+	background: none;
+	filter: none;
+}
+.lightbox .list-box .bl {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-br-lightbox.png', sizingmethod='crop');
+}
+.lightbox .list-box .c {
+	background: none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-box-cl-lightbox.png', sizingmethod='scale');
+}

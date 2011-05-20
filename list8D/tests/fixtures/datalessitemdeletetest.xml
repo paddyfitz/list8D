@@ -1,0 +1,40 @@
+<dataset>
+
+  <change_log/>
+
+  <user
+    id="547"
+    login="admin"
+    displayname="Admin person"
+    email=""
+    institutionid="1"
+    role="sysAdmin"
+    created="0000-00-00 00:00:00"
+    updated="2010-07-01 14:59:35"/>
+
+  <list id="1"
+    class="List8D_Model_List"
+    created="2010-05-14 11:15:14"
+    updated="0000-00-00 00:00:00"
+    start="2009-09-01 00:00:00"
+    end="2010-07-01 00:00:00"/>
+
+  <list_data id="2" row_id="1" key="code" value='s:5:"AA100"'/>
+  <list_data id="53379" row_id="1" key="convener" value='a:1:{i:0;s:3:"443";}'/>
+  <list_data id="5" row_id="1" key="is_published" value='s:0:""'/>
+  <list_data id="4" row_id="1" key="old_list_id" value='s:4:"3599"'/>
+  <list_data id="1" row_id="1" key="title" value='s:11:"Test banner"'/>
+  <list_data id="3" row_id="1" key="year" value='s:4:"2009"'/>
+
+  <resource id="38727" class="List8D_Model_Resource_Book" created="2010-05-20 12:02:44" updated="2010-05-20 12:02:45"/>
+
+  <item
+    id="173096"
+    list_id="1"
+    class="List8D_Model_Item"
+    resource_id="38727"
+    order="5"
+    created="0000-00-00 00:00:00"
+    updated="2010-07-02 15:07:45"/>
+
+</dataset>

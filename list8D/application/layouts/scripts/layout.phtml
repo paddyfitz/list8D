@@ -1,0 +1,28 @@
+<?php
+// application/layouts/scripts/layout.phtml
+
+echo $this->doctype() ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>list8D</title>
+  <?php echo $this->headLink()
+  					->appendStylesheet('redefined.css')
+  					->appendStylesheet('layout.css')
+  					->appendStylesheet('aural.css','aural'); ?>
+</head>
+<body>
+    <h1>University of Kent</h1>
+    <h2>Reading lists</h2>
+    
+    <ul>
+    	<li><a href="<?php echo $this->url(array("controller"=>"list","action"=>"index","id"=>null)); ?>">Lists</a></li>
+    </ul>
+    
+		<h3><?php echo $this->layout()->title ?></h3>
+		
+		<div id="content">
+			<?php echo $this->layout()->content; ?>
+		</div>
+</body>
+</html>

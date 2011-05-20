@@ -1,0 +1,256 @@
+@media print{
+	
+	body{
+		font-family: Arial, sans;
+		font-size: 62.5%;
+		padding: 0;
+		margin: 0;
+	}
+	
+	
+	#header {
+		display:none;
+	}
+	
+	.head {
+		background:none;
+		color:none;
+		margin-bottom:10px;
+		padding-bottom:5	px;
+		border-bottom: 1pt solid black;
+	}
+	
+	.main-head  {
+
+	}
+	
+	
+	.head h1 {
+		color:#353535;
+		font-weight: bold;
+		font-size:2em;
+		margin:3px 0 0;
+		width:100%;
+	}
+	
+	
+	#main {
+		width:100%;
+	}
+	
+	#footer  {
+		display:none;
+	}
+	
+	.main-head  {
+		padding-bottom:10pt;
+	}
+	
+	h1.with-code {
+		float: none;
+		width: auto;
+		font-size:1.9em;
+		font-weight:bold;
+		line-height:1.105em;
+	}
+	
+	.head-info h2 {
+		font-size: 1.6em;
+		color: #444;
+		margin: 0;
+		font-weight: normal;
+	}
+	
+	.head-info a{
+		text-decoration:none;
+		color:black;
+	}
+	
+	.module-code {
+		float:left;
+		font-size:1.9em;
+		font-weight:bold;
+		line-height:1.105em;
+		margin-right:10pt;
+	}
+	
+	.view-tools {
+		position: absolute;
+		right:15px;
+		top:-90px;
+	}
+	
+	.lists .cr {
+		padding:5px 112px 5px 10px;
+	}
+	
+	p.searched-for {
+		position: relative;
+		top: -20px;
+	}
+	
+	.search-results h3{
+		font-size:1.5em;
+	}
+	
+	.search-results-info h2 a, .search-results-info a {
+	}
+	
+	.search-results-info h3 {
+		font-size: 2.6em;
+		margin-top: 6px;
+	}
+	
+	.my-lists .search-results-info h3 {
+		font-size: 2.4em;
+		margin-top: 0px;
+
+	}
+	
+	.search-results-info h4 a {
+		color: #225380;
+	}
+	
+	.search-results-info h4 {
+		font-size: 1.4em;
+		margin-top: 1px;
+		color: #666;
+		padding-left: 59px;
+		font-weight: normal;
+	}
+	
+	#help-link {
+		float: right;
+		font-weight: bold;
+	}
+	
+	.notes-icon{
+		display:none;
+	}
+	
+	.buttons{
+		display:none;
+	}
+	
+	.move{
+		display:none;
+	}
+	
+	.small-list-info{
+		border-bottom: 1pt solid black;
+		page-break-inside: avoid;
+		
+	}
+	
+	.list-item, .List{
+		page-break-inside:avoid;
+	}
+	
+	.List .small-list-info{
+		border-bottom: 0pt;
+	}
+	
+	.small-list-info p{
+		font-size:1.5em;
+		page-break-inside:avoid;
+	}
+	
+	.nested .small-list-info{
+		margin-left:20pt;
+		border-top: 0px;
+		border-bottom: 1pt solid black;
+	}
+	
+	.small-list-info .notes p{
+		font-size:1em;
+	}
+	
+	.list-box-content{
+		page-break-inside:avoid;
+	}
+	
+	#sidebar{
+		
+	}
+	
+	#create-item{
+		display:none;
+	}
+	
+	.tags a, a.icon-create, a.icon-edit, a.icon-delete, a.icon-add .actions{
+		display:none;
+	}
+	
+	.resource-results-checkbox{
+		display:none;
+	}
+	
+	.visual{
+		display:none;
+	}
+	
+	.add-item-results h2{
+		font-size:1.3em;
+		margin-top: 0pt;
+		padding-top:0pt;
+	}
+	
+	.cr{
+		padding-bottom: 10pt;
+		border-bottom: 1pt solid black;
+		page-break-inside:avoid;
+	}
+	
+	.cr a{
+		display:none;
+	}
+	
+	.resource-results-submit{
+		display:none;
+	}
+	
+	tr.even a, tr.odd a{
+		text-decoration:none;
+		color:black;
+	}
+	.pager{
+		display:none;
+	}
+	
+	.cancel-link{
+		display:none;
+	}
+	
+	.frame h3{
+		display:none;
+	}
+	
+	.info-box ul li a{
+		text-decoration:none;
+		color:black;
+	}
+	
+	.info-box ul.links{
+		display:none;
+	}
+	
+	.frame ul.create-types{
+		display:none;
+	}
+	
+	.actions{
+		display:none;
+	}
+	
+	dl.zend_form{
+		display:none;
+	}
+	
+	div#users-last-name-filter{
+		display:none;
+	}
+	
+	.info-box-2{
+		display:none;
+	}
+}

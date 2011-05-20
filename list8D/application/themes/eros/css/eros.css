@@ -1,0 +1,84 @@
+.module-code {
+	background:none repeat scroll 0 0 #505050;
+	color:#FFFFFF;
+	float:left;
+	font-size:1.9em;
+	font-weight:bold;
+	line-height:1.105em;
+	margin:15px 15px 10px 0;
+	padding:22px 0 25px;
+	text-align:center;
+	width:78px;
+	display: block;
+}
+.search-results .module-code {
+	margin: 0 15px 10px 0;
+	font-size: 1em;	
+}
+
+h3 {
+	font-size: 3.5em;
+	margin: 25px 0 0;
+}
+
+h3.with-code {
+
+}
+
+#content .right-column h3 {
+	margin-top:0px;
+}
+
+.search-results h4,
+.head-info h4 {
+	font-size: 1.6em;
+	color: #444;
+	margin: 0 0 10px;
+	font-weight: normal;
+}
+
+#content .search-results h4 {
+	font-size: .8em;
+	margin-top: 0;
+	font-weight: normal;
+	padding-left:93px;
+}
+
+#content .search-results li.list {
+	margin-bottom: 20px;
+}
+#content .search-results li.list h3 {
+	margin-bottom: 0px;
+	padding-left:93px;
+}
+#content.with-list {
+	margin-top: 30px;
+}
+.lists  {
+	padding-left:0px;
+}
+
+.view-controls  {
+	margin-top:-30px;
+}
+
+li.list:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+li.list {
+	display: inline-block;
+}
+ 
+html[xmlns] li.list {
+	display: block;
+}
+ 
+* html li.list {
+	height: 1%;
+}

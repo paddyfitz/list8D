@@ -1,0 +1,3 @@
+array(
+		"script" => "update-old-metadata.php",
+		),

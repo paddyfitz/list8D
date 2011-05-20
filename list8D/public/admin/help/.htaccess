@@ -1,0 +1,5 @@
+#.htaccess file for the help system in list8d
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /admin/help
+RewriteRule ^(.*)\.htm(l)?$ index.php?path=$1 [NC]

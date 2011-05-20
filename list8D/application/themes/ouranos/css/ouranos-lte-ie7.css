@@ -1,0 +1,20 @@
+.submit {
+	padding: 7px 2px 5px;
+	margin-top: -1px;
+}
+
+.header h1 {
+	height: 30px;
+}
+
+.header .links {
+	list-style: none;
+	float: right;
+	margin-top: -10px;
+}
+
+#content .filters ul,
+ul.tags {
+	margin: 10px 0 5px;
+}
+

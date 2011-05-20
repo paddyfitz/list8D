@@ -1,0 +1,16 @@
+[production]
+
+name = Gaia
+description = The default theme for list8D.
+extends = root
+
+css.screen[] = all.css
+css.screen[] = js/fancybox/jquery.fancybox-1.3.0.css
+
+js.inline[] = ie-hover-pack.js
+js.inline[] = fancybox/jquery.fancybox-1.3.0.js
+js.inline[] = view-switcher.js
+
+[development:production]
+[staging:production]
+[testing:production]

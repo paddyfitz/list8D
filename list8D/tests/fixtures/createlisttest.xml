@@ -1,0 +1,17 @@
+<dataset>
+
+  <change_log/>
+
+  <user
+    id="547"
+    login="admin"
+    displayname="Admin person"
+    email=""
+    institutionid="1"
+    role="sysAdmin"
+    created="0000-00-00 00:00:00"
+    updated="2010-07-01 14:59:35"/>
+
+  <list/>
+
+</dataset>

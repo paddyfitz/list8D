@@ -1,0 +1,184 @@
+.center {
+	width: 740px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+}
+
+h3 {
+	font-size: 2em;
+	margin-top: 0;
+	margin-bottom : 5px;
+	color: #444;
+}
+
+p {
+	font-size: 1.6em;
+	color: #59595a;
+}
+
+.header:after,
+form:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+form {
+	display: inline-block;
+}
+
+.header {
+	display: inline-block;
+	padding-top: 1px;
+	margin-bottom: 10px;
+}
+ 
+html[xmlns] .header,
+html[xmlns] form {
+	display: block;
+}
+ 
+* html .header,
+* html form {
+	height: 1%;
+}
+
+.search {
+	border: 3px solid #555555;
+	padding: 7px 14px;
+	width: 500px;
+	font-size: 3.4em;
+	color: #555555;
+	float: left;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.default {
+	color: #9c9c9c;
+}
+
+input.submit,
+.submit input {
+	background: url(../images/submit-background.png) repeat-x top #00497b;	color: #fff;
+	font-size: 3em;
+	font-weight: bold;
+	border: 0;
+	display: block;
+	padding: 13px 27px 12px;
+	cursor: pointer;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(../../themes/root/htc/border-radius.htc);
+	float: left;
+}
+.submit input {
+	float: none;
+}
+
+html>/**/body .submit, x:-moz-any-link, x:default {
+
+	padding: 11px 25px;
+}
+
+
+.intro-links {
+	margin-top: 1px;
+}
+.search-help,
+.browse,
+.admin {
+	float: left;
+}
+
+.search-help {
+	width: 295px;
+	background: #555555;
+}
+
+.search-help * {
+	color: white;
+}
+
+
+.search-help .content {
+	padding: 10px 15px;
+}
+.search-help .top {
+	background: url(../images/search-lists-top.png);
+	height: 20px;
+}
+.search-help .bottom {
+	background: url(../images/search-lists-bottom.png);
+	font-size: 0;
+	height: 5px;
+}
+
+
+.browse,
+.admin {
+	width: 175px;
+	margin-left: 28px;
+	margin-top: 12px;
+}
+
+.browse .icon {
+	margin-bottom: 5px;
+}
+
+.advanced-search {
+	margin: 5px 1px 10px 0px;
+}
+
+.right {
+	float: left;
+}
+
+a:link,
+a:hover,
+a:active,
+a:visited {
+	float: right;
+	font-size: 1.6em;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	color: #005594;
+
+}
+a:hover {
+	text-decoration: underline;
+}
+
+
+
+#search-form,
+#advanced-search-link a {
+ display: none;
+}
+
+
+.js #search-form,
+.js #advanced-search-link a {
+	display: block;
+}
+.js .advanced-search-form {
+	display: none;
+}
+
+.search-help {
+	visibility: hidden;
+}
+
+.js .search-help {
+	visibility: visible;
+}
+.advanced-search-form {
+	margin-bottom: 0px;
+}

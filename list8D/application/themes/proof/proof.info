@@ -1,0 +1,7 @@
+name = Proof
+description = A basic theme that extends root, intended for developers to hack proof of concepts together.
+extends = gaia
+
+css.screen[] = layout.css
+css.screen[] = redefined.css
+css.aural[] = aural.css

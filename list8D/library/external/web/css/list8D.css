@@ -1,0 +1,272 @@
+.clearfix {
+  min-width: 0;
+  /* overflow: hidden; */
+}
+
+.clearfix:after {
+  /* content: "<!-- -->";  */
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#list8D {
+	margin-top: -15px;
+}
+
+#list8D h1 {
+	margin: 0px;
+	font-size:1.6em;
+}
+
+#list8D h2 {
+	margin: 0px;
+	color: #777;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+
+#list8D h4 {
+	margin: 10px 0px;
+	font-size: 1.2em;
+	color:#003882;
+}
+
+#list8D h5 {
+	margin: 2px 0px 2px;
+	font-size: 1.8em;
+	font-weight: normal;
+	color: #222;
+}
+
+#list8D h6 {
+	color: #111;
+	font-size: 1em;
+	margin: 0px 0px;
+}
+
+		
+#list8D ul.list-items,
+#list8D .list-items li {
+	display: block;
+	padding: 0px;
+	margin: 0px 0px 40px;
+}
+		
+	#list8D .item {
+		width: auto !important;
+		padding: 10px;
+	}
+		
+	#list8D li.list {
+		padding: 10px;
+	}
+		#list8D li.list h3 {
+			margin: 0px 0px 10px;
+		}
+		
+		#list8D .item ul {
+			padding: 20px 10px 1px 20px;
+			border-left: 3px solid #666;
+			margin-bottom: 0px;
+		}
+		
+		#list8D .item .details {
+			float: left;
+		}
+		#list8D .item .flags {}
+			
+			#list8D .item div {
+				margin-right: 10px;
+			}
+			
+			#list8D .item .type {
+				font-size: .9em;
+				color: #666;
+				display: block;
+				float: left;
+			}
+			
+			#list8D .item .flags img {
+				position: relative;
+				top: 3px;
+			}
+			
+			#list8D .item .core-text,
+			#list8D .item .recommended-for-purchase {
+				font-size: .9em;
+				color: #666;
+				display: block;
+				float: left;
+			}
+		
+	
+		#list8D .item .cover {
+			float: left;
+			margin-right: 20px;
+			float: left;
+			min-width: 120px;
+			min-height: 1px;
+			padding-left: 0px;
+		}
+		
+			#list8D .item img,
+			#list8D .item img.cover {
+				margin-right: 0px;
+				max-width: 120px;
+			}
+			
+		#list8D .item .image-placeholder {
+
+		}
+	
+		#list8D .item .published-by {
+			margin-bottom: 10px;
+			margin-top: 1px;
+			color: #666;
+		}
+		
+		#list8D .item .follow-link,
+		#list8D .item .view-in-catalogue {
+			display: block;
+			padding-left: 20px;
+			background-position: 0px 1px;
+			background-image: url(../images/book-arrow.png);
+			background-repeat: no-repeat;
+			font-weight: bold;
+			margin-top: 10px;
+		}
+			
+			#list8D .item .follow-link .title,
+			#list8D .item .view-in-catalogue  .title {
+				display: none;
+
+			}
+		
+		
+		#list8D .item .follow-link {
+			background-image: url(../images/arrow-000.png);
+		}
+			
+		#list8D .item .section-to-read {
+		  color: #003882;
+		  font-weight: bold;
+		  margin-bottom: 10px;
+				font-size: 1.2em;
+		}
+		  #list8D .item .section-to-read .section-to-read {
+		  	font-weight: normal;
+		  	font-size: 1em;
+		  }	
+		
+		#list8D .item .isbn,
+		#list8D .item .issn,
+		#list8D .item .student-notes {
+		  color: #666;
+		  margin-bottom: 3px;
+		}
+		
+		
+		
+	#list8D .pages {
+		margin: 20px 0px;
+	}	
+		#list8D .pager {
+			font-weight: bold;
+			float: right;
+		}
+		
+			#list8D .pager a {
+				padding: 2px 4px;
+				display: block;
+				float: left;
+				margin-right: 5px;
+			}
+		
+		
+			#list8D .pager a.current {	
+				background: #003882;
+				color: white;
+			}
+			
+			#list8D .pager img {
+				margin-top: 2px;
+				margin-right: 4px;
+				float: left;
+				display: block;
+			}
+	
+	
+		#list8D .page-info {
+			padding: 2px 4px;
+			display: block;
+			float: left;
+		}		
+				
+				
+	#list8D .compressed {}
+	
+		
+		#list8D ul.compressed li.list {
+			padding: 0px;
+		}
+		
+			#list8D .compressed ul {
+				padding: 0px 0px 0px 30px;
+				border: none;
+			}
+		
+			#list8D ul.compressed li.list h3 {
+				color: black;
+				font-size: 1em;
+				display: inline;
+			}
+		
+		#list8D ul.compressed li.item {
+			margin-bottom: 5px;
+		}
+		
+			#list8D ul.compressed li.item img {
+				position: relative;
+				top: 3px;
+			}
+			
+			#list8D ul.compressed li.item a {
+				display: inline;
+				padding: 0px;
+				margin: 0px;
+				background: none;
+			}
+			
+#list8D .compress,
+#list8D .expand {
+	float: right;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+#list8D .icon {
+	padding: 0px 0px 0px 20px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+#list8D .type-book {
+	background-image: url(../images/book.png);
+}
+#list8D .type-url {
+	background-image: url(../images/globe-green-chain.png);
+}
+#list8D .recommended-for-purchase {
+	background-image: url(../images/money_dollar.png);
+}
+#list8D .core-text {
+	background-image: url(../images/exclamation.png);
+}
+
+#list8D .no-cover-art {
+	height: 160px;
+	width: 120px;
+	background: url(../images/no-cover-art.png) no-repeat;
+}

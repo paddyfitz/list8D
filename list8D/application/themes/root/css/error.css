@@ -1,0 +1,115 @@
+/* general reset */
+*{font-size:100.01%}
+html {
+	font-size:62.5%;
+	height:100%;
+}
+body{
+	margin:0;
+	color:#343434;
+	font:1em Arial, Helvetica, sans-serif;
+	background:#fff;
+	height:100%;
+	min-width:1000px;
+	position:relative;
+}
+img{border-style:none;}
+.hidden {display:none;}
+a{
+	text-decoration:none;
+	color:#225380;
+}
+p, a, li { font-size: 1.2em}
+h4 {
+	font-size: 2em;
+	margin: 20px 0px 5px;
+}
+p a, li a, li li, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, a h1, a h2, a h3, a h4, a h5, a h6 { font-size: 1em; }
+a:hover{text-decoration:underline;}
+input,
+textarea,
+select{
+	font:15px Arial, Helvetica, sans-serif;
+	vertical-align:middle;
+	color:#343434;
+	margin-top: 5px;
+	border:1px solid #999;
+	padding:5px;
+}
+textarea {
+	width: 100%;
+	height: 200px;
+}
+form,fieldset{
+	margin:0;
+	padding:0;
+	border-style:none;
+}
+
+body {
+	background: #f6f6f6;
+}
+.logo {
+	float: right;
+	background: url(../images/list8c-logo.png) no-repeat top left;
+	width: 136px;
+	height: 74px;
+	text-indent: -999px;
+	overflow: hidden;
+}
+
+#main {
+	width: 900px;
+	margin-left: auto;
+	background: white;
+	border: 1px solid #d6d6d6;
+	margin-right: auto;
+	padding: 20px 30px 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+h1, h2 {
+	font-size: 2.2em;
+	margin-bottom: 0px;
+}
+
+#version {
+	font-size: 1.8em;
+	color: #5a5a5a;
+	font-weight: bold;
+	margin-top: 4px;
+}
+
+#header {
+	background: red;
+	margin: 0px -50px;
+}
+
+	#header.top {
+		padding-top: 28px;
+		background: url(../images/error-header-top.png) no-repeat top left;
+	}
+		#header .bottom {
+			padding-bottom: 21px;
+			background: url(../images/error-header-bottom.png) no-repeat bottom left;
+		}
+			#header .centre {
+				background: url(../images/error-header.png) repeat-y left;
+			}
+				#header h2 {
+					margin: 0px;
+					font-size: 3em;
+					color: #232323;
+					position: relative;
+					top: -5px;
+					padding: 0px 40px;
+				}
+	ul { padding-left: 20px; list-style: decimal; overflow: auto   }
+  ol li { padding-bottom: 5px; margin: 5px 0px; }
+  ol ol { font-family: monospace; white-space: pre; list-style-position: inside; margin: 0; padding: 10px 0; font-size: 1.2em;}
+  ol ol li { margin: -5px 0px; padding: 0 }
+  ol .selected { font-weight: bold; background-color: #fce34b; padding: 2px 0 }
+

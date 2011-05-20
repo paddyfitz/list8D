@@ -1,0 +1,18 @@
+[production]
+name = Eros
+description = The Univserity of Kent's variant of Ouranos.
+extends = ouranos
+
+css.screen[] = ouranos.css
+css.screen[] = eros.css
+css.screen[] = module-codes.css
+css.conditional.lteIE7.screen[] = ouranos-lte-ie7.css
+css.conditional.lteIE6.screen[] = ouranos-lte-ie6.css
+
+js.inline[] = sublistOpenClose.js
+
+
+[development:production]
+[staging:production]
+[testing:production]
+

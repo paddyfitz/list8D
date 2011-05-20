@@ -1,0 +1,15 @@
+[production]
+
+name = Ouranos
+description = The default front end theme for list8D.
+extends = root
+
+css.screen[] = ouranos.css
+css.conditional.lteIE7.screen[] = ouranos-lte-ie7.css
+css.conditional.lteIE6.screen[] = ouranos-lte-ie6.css
+
+js.inline[] = sublistOpenClose.js
+
+[development:production]
+[staging:production]
+[testing:production]

@@ -1,0 +1,22 @@
+
+
+<div id="list-details">
+	<h4>Details</h4>
+	<div class="title">
+		<div class="value"><?php echo $this->title; ?></div>
+	</div>
+	<div class="code">
+		<div class="label">Code:</div>
+		<div class="value"><?php echo $this->code; ?></div>
+	</div>
+</div>
+
+<div id="list-items" class="root">
+	
+	<h4>Items</h4>
+	
+	<?php echo $this->items; ?>
+
+</div>
+
+<a href="<?php echo $this->url(array("controller"=>"list","action"=>"additem")); ?>">WIBBLE add item to list</a>

@@ -1,0 +1,11 @@
+[production]
+
+name = Root
+description = Root theme not intended to be used, but used as a base for other themes.
+
+css.screen[] = layout.css
+css.screen[] = redefined.css
+
+[development:production]
+[staging:production]
+[testing:production]

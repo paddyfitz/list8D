@@ -1,0 +1,34 @@
+	<div class="items">
+		<?php if (count($this->items)): ?>
+			<?php foreach($this->items as $item): ?>
+				
+				<div class="item">
+				
+					
+					
+					<?php if (!$item->isList()): ?>
+						<h5><?php echo ($item->getResource()->getTitle()); ?></h5>
+					<?php else: ?>
+
+						<h5><?php echo ($item->getTitle()); ?></h5>
+						<div class="items">
+							<div class="label">Items:</div>
+							<div class="value">
+								<?php 
+									$itemsView = new Zend_View();
+    	  					$itemsView->setScriptPath(APPLICATION_PATH."/views/scripts/list");
+									$itemsView->items = $item->getChildren();
+									echo $itemsView->render("items-tree.phtml");
+								?>
+							</div>
+						</div>
+					<?php endif; ?>
+					
+				</div>
+				
+			<?php endforeach; ?>
+		<?php else: ?>
+		<p>There are no items on this list yet.</p>
+		<?php endif; ?>
+	</div>
+

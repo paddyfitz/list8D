@@ -1,0 +1,11 @@
+[production]
+name = Aether
+description = The default lti theme for list8D.
+extends = ouranos
+
+css.screen[] = ouranos.css
+
+
+[development:production]
+[staging:production]
+[testing:production]

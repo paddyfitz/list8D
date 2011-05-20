@@ -1,0 +1,32 @@
+.center {
+}
+
+.header {
+}
+
+.header .links li {
+	padding: 0;
+}
+
+
+.right-column {
+	margin-right: -150px;
+}
+
+
+.header h1 {
+	height: 30px;
+}
+
+#content .item .cover {
+	height: 1px;
+}
+
+.header h1 {
+	height: 30px;
+}
+
+#content .item .cover {
+	margin-left: -75px;
+}
+

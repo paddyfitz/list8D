@@ -1,0 +1,22 @@
+<h1> Amazon ISBN Lookup form</h1>
+<?php
+	
+	echo $this->form;
+	echo '<h2>Results</h2>';
+	// pre_dump($this->amazon);
+	echo '<pre>';
+	print_r($this->amazon);
+	
+	echo "<img src='" . $this->amazon['thumbnailUrl'] . "' />";
+	
+	/*
+	echo "Title: {$this->amazon->Title}\n";
+	echo "ASIN: {$this->amazon->ASIN}\n";
+	echo "DetailPageURL: {$this->amazon->DetailPageURL}\n";
+	echo "MediumImage: {$this->amazon->MediumImage->Url}\n";
+	echo "<img src='{$this->amazon->LargeImage->Url}' />\n";
+	echo '</pre>';
+
+	pre_dump($this->amazon);	
+	*/
+?>

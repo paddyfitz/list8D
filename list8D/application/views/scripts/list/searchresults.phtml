@@ -1,0 +1,6 @@
+
+<ul>
+	<?php foreach($this->lists as $list): ?>
+		<li><a href="<?php echo $this->url(array('controller'=>'list','action'=>'view','id'=>$list->getId())); ?>"><?php echo $list->getTitle(); ?></a></li>
+	<?php endforeach; ?>			
+</ul>

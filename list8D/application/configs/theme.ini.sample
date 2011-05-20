@@ -1,0 +1,23 @@
+[production]
+theme = pontus
+ltiTheme = aether
+referenceStyle = dev
+logo.src = /logo.gif
+logo.alt = University of Kent
+defaultDateFormat = l jS \of F Y
+#variables.instituition =
+variables.applicationName = Reading Lists Admin
+
+front.theme = ouranos
+front.logo.src = /front-logo.png
+front.variables.applicationName = Reading Lists 
+front.variables.footerNote = <p>The list8D demo is run by the University of Kent.</p>
+
+front.variables.instituition = University of Kent
+
+
+[staging : development]
+
+[testing : production]
+
+[development : production]

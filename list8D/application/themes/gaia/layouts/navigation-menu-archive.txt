@@ -1,0 +1,22 @@
+<?php if ($this->user->isAllowed("report",'view') || $this->user->isAllowed("report-for-purchase",'view') || $this->user->isAllowed("report-all-lists",'view')): ?>
+  	<li class="reports">
+  		<a href="<?php echo $this->url(array('controller'=>'report','action'=>null)); ?>"><span><em>Reports</em></span></a>
+  		<div class="sub-nav">
+  			<ul>
+  				<?php if ($this->user->isAllowed("report",'view') || $this->user->isAllowed("report-all-lists",'view')): ?>
+	  				<li class='all-lists'><a href="<?php echo $this->url(array('controller'=>'report','action'=>'alllists', 'id'=>null)); ?>">All reading lists</a></li>
+  				<?php endif; ?>
+  				<?php if ($this->user->isAllowed("report",'view') || $this->user->isAllowed("report-for-purchase",'view')): ?>
+	  				<li class='for-purchase'><a href="<?php echo $this->url(array('controller'=>'report','action'=>'forpurchase', 'id'=>null)); ?>">Items for purchase</a></li>
+  				<?php endif; ?>
+  				<?php if ($this->user->isAllowed("report",'view') || $this->user->isAllowed("report-private-notes-changed",'view')): ?>
+	  				<li class='private-notes-changed'><a href="<?php echo $this->url(array('controller'=>'report','action'=>'privatenoteschanged', 'id'=>null)); ?>">Librarian notes changes</a></li>
+  				<?php endif; ?>
+  				<?php if ($this->user->isAllowed("report",'view') || $this->user->isAllowed("report-core-text",'view')): ?>
+	  				<li class='core-text-changed'><a href="<?php echo $this->url(array('controller'=>'report','action'=>'coretext', 'id'=>null)); ?>">Core text changes</a></li>
+  				<?php endif; ?>
+  			</ul>
+  			<div class="bottom-bg">&nbsp;</div>
+  		</div>
+  	</li>
+  <?php endif; ?>

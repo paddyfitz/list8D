@@ -1,0 +1,72 @@
+<dataset>
+  <!--
+    list_id="NULL"
+    order="NULL"
+    author="NULL"
+  -->
+
+  <change_log/>
+
+  <user
+    id="547"
+    login="admin"
+    displayname="Admin person"
+    email=""
+    institutionid="1"
+    role="sysAdmin"
+    created="0000-00-00 00:00:00"
+    updated="2010-07-01 14:59:35"/>
+
+  <list id="1"
+    class="List8D_Model_List"
+    created="2010-05-14 11:15:14"
+    updated="0000-00-00 00:00:00"
+    start="2009-09-01 00:00:00"
+    end="2010-07-01 00:00:00"/>
+
+  <list_data id="2" row_id="1" key="code" value='s:5:"AA100"'/>
+  <list_data id="53379" row_id="1" key="convener" value='a:1:{i:0;s:3:"443";}'/>
+  <list_data id="5" row_id="1" key="is_published" value='s:0:""'/>
+  <list_data id="4" row_id="1" key="old_list_id" value='s:4:"3599"'/>
+  <list_data id="1" row_id="1" key="title" value='s:11:"Test banner"'/>
+  <list_data id="3" row_id="1" key="year" value='s:4:"2009"'/>
+
+  <list
+    id="36943"
+    list_id="1"
+    order="0"
+    class="List8D_Model_NestedList"
+    created="2010-06-18 14:05:36"
+    updated="2010-06-21 09:24:47"/>
+  <list
+    id="36944"
+    list_id="1"
+    order="1"
+    class="List8D_Model_NestedList"
+    created="2010-06-18 14:13:09"
+    updated="2010-06-18 14:14:38"/>
+
+  <resource id="38727" class="List8D_Model_Resource_Book" created="2010-05-20 12:02:44" updated="2010-05-20 12:02:45"/>
+
+  <item
+    id="171212"
+    list_id="36943"
+    class="List8D_Model_Item"
+    resource_id="38727"
+    order="0"
+    created="0000-00-00 00:00:00"
+    updated="2010-07-02 15:07:45"/>
+
+  <item_data id="1089990" row_id="171212" key="core_text" value='s:1:"1";'/>
+  <item_data id="1089992" row_id="171212" key="is_published" value='s:1:"1";'/>
+  <item_data id="1101275" row_id="171212" key="needs_updating" value='s:1:"0";'/>
+  <item_data id="1089993" row_id="171212" key="part" value='s:0:"";'/>
+  <item_data id="1089995" row_id="171212" key="part_author" value='s:0:"";'/>
+  <item_data id="1089994" row_id="171212" key="part_title" value='s:0:"";'/>
+  <item_data id="1089989" row_id="171212" key="private_notes" value='s:64:"Please order an ebook if possible, if not 2 extras 24hour loans.";'/>
+  <item_data id="1089996" row_id="171212" key="public_notes" value='s:9:"something";'/>
+  <item_data id="1089991" row_id="171212" key="recommended_for_purchase" value='s:1:"0";'/>
+  <item_data id="1101277" row_id="171212" key="scan_available" value='s:1:"1";'/>
+  <item_data id="1101276" row_id="171212" key="scan_request" value='s:1:"1";'/>
+
+</dataset>

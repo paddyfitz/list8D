@@ -1,0 +1,144 @@
+[production]
+phpSettings.display_startup_errors = 0
+phpSettings.display_errors = 0
+includePaths.library = APPLICATION_PATH "/../library"
+bootstrap.path = APPLICATION_PATH "/Bootstrap.php"
+bootstrap.class = "Bootstrap"
+resources.frontController.controllerDirectory = APPLICATION_PATH "/controllers"
+resources.layout.layoutPath = APPLICATION_PATH "/layouts/scripts"
+resources.view[] =
+resources.db.adapter = PDO_MYSQL
+resources.db.params.host = 
+resources.db.params.username = 
+resources.db.params.password = 
+resources.db.params.dbname = 
+resources.db.params.charset = utf8 
+resources.view.encoding = "utf8"
+list8d.documentStore.host = "localhost"
+list8d.documentStore.location = "/www/list8d/list8D/data/ls.txt"
+list8d.documentStore.url_prefix = "http://www.kent.ac.uk/rldocs/"
+list8d.documentStore.username = "rea8"
+front.currentYear = 2009
+admin.currentYear = 2009
+list8d.Amazon.key = 
+list8d.Amazon.secret = 
+list8d.Amazon.country = UK
+list8d.metatrons[] = List8D_Model_Metatron_KentVoyager
+list8d.metatrons[] = List8D_Model_Metatron_GoogleBooks
+list8d.metatrons[] = List8D_Model_Metatron_Amazon
+list8d.metatrons[] = List8D_Model_Metatron_URL
+list8d.metatrons[] = List8D_Model_Metatron_KentSerialsSolutions
+list8d.purchasing.metatrons[] = List8D_Model_Metatron_Amazon
+list8d.resourcetypes[] = List8D_Model_Resource_Book
+list8d.resourcetypes[] = List8D_Model_Resource_Url
+list8d.resourcetypes[] = List8D_Model_NestedList
+list8d.resourcetypes[] = List8D_Model_Resource_Journal
+list8d.resourcetypes[] = List8D_Model_Resource_PhysicalMedia
+list8d.supportEmailAddress = helpdesk@kent.ac.uk
+list8d.supportEmailSubject = Error whilst using list8D reading list system
+list8d.supportEmailBody = "PLEASE INSERT DETAILS ON WHAT YOU WERE DOING HERE
+
+Error code:
+{$code}
+
+Message:
+{$message}
+
+URL:
+{$url}
+
+Referring URL:
+{$referringUrl}
+
+User agent:
+{$userAgent}
+
+Stack trace:
+{$stackTrace}"
+
+
+access.roles.guest.title = Guest
+access.roles.guest.list.privileges[] = view
+access.roles.guest.list.privileges[] = search
+access.roles.guest.resource.privileges[] = view
+
+access.roles.academic.title = Academic
+access.roles.academic.inherits[] = guest
+access.roles.academic.list.privileges[] = edit-tagged:module
+access.roles.academic.list-field-title.privileges[] = edit
+access.roles.academic.list-field-start.privileges[] = edit
+access.roles.academic.list-field-end.privileges[] = edit
+access.roles.academic.list-field-is_published.privileges[] = edit
+access.roles.academic.list-field-private_notes.privileges[] = edit
+access.roles.academic.list-field-public_notes.privileges[] = edit
+access.roles.academic.item-fields.privileges[] = edit
+access.roles.sysAdmin.resource-fields.privileges[] = edit
+
+access.roles.deptAdmin.title = Departmental admin
+access.roles.deptAdmin.inherits[] = academic
+access.roles.deptAdmin.list.privileges[] = edit-tagged:department
+access.roles.deptAdmin.user.privileges[] = view
+access.roles.deptAdmin.user.privileges[] = edit-tagged:department
+access.roles.deptAdmin.user.privileges[] = tag-tagged:department
+
+access.roles.librarian.title = Library staff
+access.roles.librarian.inherits[] = deptAdmin
+access.roles.librarian.user.privileges[] = create
+access.roles.librarian.user.privileges[] = edit
+access.roles.librarian.report.privileges[] = view
+access.roles.librarian.user.privileges[] = tag
+access.roles.librarian.list.privileges[] = edit
+access.roles.librarian.list.privileges[] = edit-old
+#access.roles.librarian.list.privileges[] = tag
+access.roles.librarian.list-fields.privileges[] = edit
+access.roles.librarian.tag.privileges[] = create
+access.roles.librarian.tag.privileges[] = remove
+access.roles.librarian.tag.privileges[] = edit
+access.roles.librarian.tag.privileges[] = view
+access.roles.librarian.resource.privileges[] = edit
+access.roles.librarian.resource.privileges[] = create
+access.roles.librarian.resource-fields.privileges[] = edit
+
+access.roles.sysAdmin.title = System admin
+access.roles.sysAdmin.user.privileges[] = create
+access.roles.sysAdmin.user.privileges[] = remove
+access.roles.sysAdmin.user.privileges[] = edit
+access.roles.sysAdmin.user.privileges[] = view
+access.roles.sysAdmin.user.privileges[] = tag
+access.roles.sysAdmin.user.privileges[] = edit-tagged
+access.roles.sysAdmin.user.privileges[] = tag-tagged
+access.roles.sysAdmin.list.privileges[] = create
+access.roles.sysAdmin.list.privileges[] = remove
+access.roles.sysAdmin.list.privileges[] = edit
+access.roles.sysAdmin.list.privileges[] = edit-old
+access.roles.sysAdmin.list.privileges[] = view
+access.roles.sysAdmin.list.privileges[] = tag
+access.roles.sysAdmin.list.privileges[] = search
+access.roles.sysAdmin.list.privileges[] = edit-tagged
+access.roles.sysAdmin.list-fields.privileges[] = edit
+access.roles.sysAdmin.item-fields.privileges[] = edit
+access.roles.sysAdmin.resource.privileges[] = create
+access.roles.sysAdmin.resource.privileges[] = remove
+access.roles.sysAdmin.resource.privileges[] = edit
+access.roles.sysAdmin.resource.privileges[] = view
+access.roles.sysAdmin.tag.privileges[] = create
+access.roles.sysAdmin.tag.privileges[] = remove
+access.roles.sysAdmin.tag.privileges[] = edit
+access.roles.sysAdmin.tag.privileges[] = view
+access.roles.sysAdmin.report.privileges[] = view
+access.roles.sysAdmin.list-fields.privileges[] = edit
+access.roles.sysAdmin.resource-fields.privileges[] = edit
+access.roles.sysAdmin.item-fields.privileges[] = edit
+
+
+[staging : development]
+
+[testing : production]
+phpSettings.display_startup_errors = 1
+phpSettings.display_errors = 1
+resources.db.params.dbname = 
+
+[development : production]
+phpSettings.display_startup_errors = 1
+phpSettings.display_errors = 1
+resources.db.params.dbname =

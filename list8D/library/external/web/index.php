@@ -1,0 +1,1 @@
+<?php include(realpath(dirname(__FILE__)) . "/../lti.php"); ?>

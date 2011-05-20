@@ -1,0 +1,40 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 62.5%;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+
+h4 {
+	font-size: 1.4em;
+}
+
+h5 {
+	font-size: 1.8em;
+}
+
+p, li, dt, dd, a, h5, h6 {
+	font-size: 1.2em;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+li li, dl dl dt, dl dl dd, p a, li a {
+	font-size: 1em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+pre {
+	font-size: 1.4em;
+	font-family: Arial;
+	padding-left: 10px;
+}
